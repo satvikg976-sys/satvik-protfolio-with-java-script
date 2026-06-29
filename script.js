@@ -615,11 +615,11 @@ displayTasks();
 
 const images=[
 
-"images/slide1.jpg.png",
+"slide1.jpg.png",
 
-"images/slide2.jpg.png",
+"slide2.jpg.png",
 
-"images/slide3.jpg.png"
+"slide3.jpg.png"
 
 ];
 
