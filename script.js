@@ -624,6 +624,7 @@ const images=[
 ];
 
 let currentImage=0;
+showImage();
 
 const sliderImage=document.getElementById("sliderImage");
 
