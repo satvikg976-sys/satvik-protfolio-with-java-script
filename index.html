@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satvik Gundrathi Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="progressBar"></div>
+
+<header>
+  <div class="logo">Satvik Gundrathi</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#todo">To-Do</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <img src="images/profile.jpg.jpeg" class="profile-img" alt="Profile Image">
+  <h1>Blockchain & Web3 Enthusiast</h1>
+  <h3 id="greeting"></h3>
+  <p>B.Tech 2nd Year Student at Jain University passionate about Blockchain Technology, Smart Contracts, Ethereum, Web3 Development and Decentralized Applications.</p>
+
+  <div class="hero-buttons">
+    <a href="#projects" class="btn">View My Projects</a>
+    <button id="themeToggle">🌙 Dark Mode</button>
+  </div>
+</section>
+
+<main class="container">
+
+<section id="about" class="card">
+<h2>About Me</h2>
+<p>Hello! I am <b>Satvik Gundrathi</b>, currently pursuing B.Tech in Blockchain Technology at Jain University.</p>
+<p>I enjoy developing responsive websites, learning new technologies, and solving real-world problems.</p>
+<p>My goal is to become a skilled Blockchain Developer.</p>
+<button id="showHideBtn" class="btn">Hide About</button>
+</section>
+
+<section id="skills" class="card">
+<h2>My Skills</h2>
+<div class="skills-grid">
+<div class="skill">Blockchain</div>
+<div class="skill">Solidity</div>
+<div class="skill">Ethereum</div>
+<div class="skill">Web3.js</div>
+<div class="skill">MetaMask</div>
+<div class="skill">Ganache</div>
+<div class="skill">HTML5</div>
+<div class="skill">CSS3</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Python</div>
+<div class="skill">Networking</div>
+<div class="skill">Git & GitHub</div>
+</div>
+</section>
+
+<section id="projects" class="card">
+<h2>My Projects</h2>
+<div class="project"><h3>Crowdfunding DApp</h3><p>Blockchain crowdfunding platform using Solidity and Web3.js.</p></div>
+<div class="project"><h3>Farm Chain</h3><p>Farmer-to-consumer blockchain platform.</p></div>
+<div class="project"><h3>Cargo Management System</h3><p>Blockchain-based shipment tracking system.</p></div>
+<div class="project"><h3>Face Recognition Attendance System</h3><p>Attendance automation using face recognition.</p></div>
+</section>
+
+
+<section class="card">
+
+    <h2>Project Gallery</h2>
+
+    <div class="gallery-slider">
+
+        <button id="prevSlide" class="slide-btn">
+            &#10094;
+        </button>
+
+        <div class="gallery-box">
+
+            <img
+                id="sliderImage"
+                src="images/slide1.jpg.jpeg"
+                alt="Project Image">
+            <img
+                id="sliderImage"
+                src="images/slide2.jpg.png"
+                alt="Project Image">
+            <img
+                id="sliderImage"
+                src="images/slide3.jpg.png"
+                alt="Project Image">
+
+
+
+        </div>
+
+        <button id="nextSlide" class="slide-btn">
+            &#10095;
+        </button>
+
+    </div>
+
+</section>
+
+<!-- IMAGE POPUP -->
+
+<div id="imagePopup">
+
+    <span id="closePopup">&times;</span>
+
+    <img id="popupImage">
+
+</div>
+</section>
+
+<section id="todo" class="card">
+<h2>My Daily To-Do List</h2>
+<div class="todo-container">
+<input type="text" id="taskInput" placeholder="Enter a new task">
+<button id="addTaskBtn">Add Task</button>
+</div>
+<ul id="taskList"></ul>
+</section>
+
+<section id="contact" class="card">
+<h2>Contact Me</h2>
+<form id="contactForm">
+<input type="text" id="name" placeholder="Enter Your Name">
+<input type="email" id="email" placeholder="Enter Your Email">
+<textarea id="message" placeholder="Enter Your Message"></textarea>
+<button type="submit">Send Message</button>
+</form>
+<p id="successMessage"></p>
+</section>
+
+</main>
+
+<footer>
+<p>© 2026 Satvik Gundrathi | Portfolio</p>
+<p id="visitorCount">Visitor Count : 0</p>
+</footer>
+
+<button id="topBtn">⬆</button>
+
+<script src="script.js"></script>
+</body>
+</html>
